@@ -1,0 +1,8 @@
+{
+  "env": {
+    "DB_USER": "serega3306",
+    "DB_PASSWORD": "Alukard19",
+    "DB_NAME": "places",
+    "SECRET_KEY": "supersecret_dont_share"
+  }
+}
