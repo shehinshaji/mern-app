@@ -50,6 +50,10 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
+    auth: {
+      user: process.env.DB_USERNAME,
+      password: process.env.DB_PASSWORD,
+    },
   })
   .then(() => {
     app.listen(process.env.PORT || 5000, () => {
